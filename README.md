@@ -21,3 +21,45 @@ Los componentes principales incluyen:
 - **Vistas:** Gestionan la logica de negocio, como lista de restaurantes y la creacion de reservas.
 - **URLs:** Configurar las rutas para acceder a las vistas
 - **Plantillas:** HTML para represetar los datos al usuario con una interfaz estilizada en Bootstrap
+
+## Configuracion y Ejecución del Proyecto
+
+### Prerequisitos
+
+- python 3.9
+- django 5.1
+- django Crispy forms(opcional para formularios en bootstrap)
+
+### Pasos para la instalacion
+
+1. **Clona el repositorio:**
+
+Clonar el repositorio en una maquina local.
+
+$ mkdir PROYECTO_WEB
+$ git clone git@github:sebastianVP/restaurante_magic.git
+$ cd restaurante_magic
+$ git status
+$ cd ..
+
+2. **Crear un Entorno Virtual**
+
+Crea y activa un entorno virtual.
+$ python -m venv restaurante
+$ cd restaurante 
+$ source bin/activate
+$ cd ..
+$ cd resturante_magic
+
+3. **Instalar las Dependencias**
+
+$ pip install django==5.1
+$ pip install django-crispy-forms
+$ pip install 
+
+
+# DESARROLLO
+
+Paso 1: Configuracion del Proyecto Django
+
+
