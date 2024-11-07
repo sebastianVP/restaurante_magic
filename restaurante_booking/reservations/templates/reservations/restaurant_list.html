@@ -1,0 +1,6 @@
+<h1>Selecciona un Restaurante</h1>
+<ul>
+    {% for restaurant in restaurants %}
+        <li><a href="{% url 'make_reservation' restaurant.id %}">{{ restaurant.name }}</a> - {{ restaurant.location }}</li>
+    {% endfor %}
+</ul>
